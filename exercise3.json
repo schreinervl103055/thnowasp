@@ -1,0 +1,1199 @@
+{
+  "version": "2.5.0",
+  "summary": {
+    "title": "exercise3",
+    "owner": "",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Example STRIDE diagram with threats",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.5.0",
+        "cells": [
+          {
+            "position": {
+              "x": 140,
+              "y": 140
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "ECU"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 1,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ebb9d266-5c4d-4a18-a6cc-248e3db285b6"
+                },
+                {
+                  "group": "right",
+                  "id": "77c177bb-43a1-45f1-af72-51da422aac46"
+                },
+                {
+                  "group": "bottom",
+                  "id": "1ba3b917-75e5-4ff6-81eb-2ed23170adaa"
+                },
+                {
+                  "group": "left",
+                  "id": "e3718df1-ee02-434a-b9f9-2381378567e5"
+                }
+              ]
+            },
+            "id": "90d89639-2f58-418b-a26e-533613b16d1d",
+            "data": {
+              "type": "tm.Actor",
+              "name": "ECU",
+              "description": "executes software that controls vehicle functions, often including safety-critical operations such as braking, steering, or driver assistance",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 330,
+              "y": 260
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Gateway"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 2,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ebb9d266-5c4d-4a18-a6cc-248e3db285b6"
+                },
+                {
+                  "group": "right",
+                  "id": "77c177bb-43a1-45f1-af72-51da422aac46"
+                },
+                {
+                  "group": "bottom",
+                  "id": "1ba3b917-75e5-4ff6-81eb-2ed23170adaa"
+                },
+                {
+                  "group": "left",
+                  "id": "e3718df1-ee02-434a-b9f9-2381378567e5"
+                }
+              ]
+            },
+            "id": "826d44d3-dd39-4a80-b978-88cd35d3206b",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Gateway",
+              "description": "intermediary between different vehicle network domains, such as infotainment, telematics, and safety-critical ECUs",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 492.5,
+              "y": 39.99999999999986
+            },
+            "size": {
+              "width": 150,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "On-board Receiver"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 3,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ebb9d266-5c4d-4a18-a6cc-248e3db285b6"
+                },
+                {
+                  "group": "right",
+                  "id": "77c177bb-43a1-45f1-af72-51da422aac46"
+                },
+                {
+                  "group": "bottom",
+                  "id": "1ba3b917-75e5-4ff6-81eb-2ed23170adaa"
+                },
+                {
+                  "group": "left",
+                  "id": "e3718df1-ee02-434a-b9f9-2381378567e5"
+                }
+              ]
+            },
+            "id": "66af6a9f-4f03-442c-9f15-373f35b94bf1",
+            "data": {
+              "type": "tm.Actor",
+              "name": "On-board Receiver",
+              "description": "external communication endpoint which interfaces with outside networks such as cellular, Wi-Fi, or other wireless communication channels",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 700,
+              "y": 190
+            },
+            "size": {
+              "width": 110,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "FOTA Process"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "zIndex": 4,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "cad22257-b699-4bb1-8744-8a8976e597ad"
+                },
+                {
+                  "group": "right",
+                  "id": "3bee606c-67ce-40ce-8bf6-1b8a3e1c6ebe"
+                },
+                {
+                  "group": "bottom",
+                  "id": "2c0d6044-bc87-4ffc-b7f8-6c211df0553c"
+                },
+                {
+                  "group": "left",
+                  "id": "cca52a65-75ca-4e08-b428-0d33fb837045"
+                }
+              ]
+            },
+            "id": "051a4eb2-84b3-4115-be15-ebe1412880aa",
+            "data": {
+              "type": "tm.Process",
+              "name": "FOTA Process",
+              "description": "responsible component for managing firmware updates within the vehicle",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 947,
+              "y": 40
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Message Attack"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "zIndex": 5,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "03746c96-3752-49f7-bcbc-3c74e69e1558"
+                },
+                {
+                  "group": "right",
+                  "id": "b0359070-19f9-4880-86c5-83a05a99e676"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4eda99b9-4df2-402f-937c-a228f5daf58f"
+                },
+                {
+                  "group": "left",
+                  "id": "a58d8a88-3e69-432a-ac54-4a11bcc4a559"
+                }
+              ]
+            },
+            "id": "d5a72e49-18b5-42a9-9420-f45bb9c85ee4",
+            "data": {
+              "type": "tm.Store",
+              "name": "Message Attack",
+              "description": "malicious external entity capable of injecting or sending crafted messages into the system",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": true,
+              "storesCredentials": true,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 910,
+              "y": 360
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Cloud Server"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "zIndex": 6,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "03746c96-3752-49f7-bcbc-3c74e69e1558"
+                },
+                {
+                  "group": "right",
+                  "id": "b0359070-19f9-4880-86c5-83a05a99e676"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4eda99b9-4df2-402f-937c-a228f5daf58f"
+                },
+                {
+                  "group": "left",
+                  "id": "a58d8a88-3e69-432a-ac54-4a11bcc4a559"
+                }
+              ]
+            },
+            "id": "c78bd022-fcf5-448c-a389-b67eb4b99b66",
+            "data": {
+              "type": "tm.Store",
+              "name": "Cloud Server",
+              "description": "represents the external backend infrastructure operated by the vehicle manufacturer or service provider",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": true,
+              "storesCredentials": true,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "FOTA Server",
+              "description": "backend system responsible for managing firmware over-the-air (FOTA) updates",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": true,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "FOTA Server"
+            ],
+            "id": "404674ec-c57f-465d-9edb-66f582ab07c5",
+            "source": {
+              "cell": "c78bd022-fcf5-448c-a389-b67eb4b99b66",
+              "port": "03746c96-3752-49f7-bcbc-3c74e69e1558"
+            },
+            "target": {
+              "cell": "051a4eb2-84b3-4115-be15-ebe1412880aa",
+              "port": "2c0d6044-bc87-4ffc-b7f8-6c211df0553c"
+            },
+            "vertices": [
+              {
+                "x": 810,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data",
+              "description": "data encrypted with SHA-256",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data"
+            ],
+            "id": "b6c618dd-f361-4288-84d1-90d51948dc42",
+            "source": {
+              "cell": "051a4eb2-84b3-4115-be15-ebe1412880aa",
+              "port": "cad22257-b699-4bb1-8744-8a8976e597ad"
+            },
+            "target": {
+              "cell": "66af6a9f-4f03-442c-9f15-373f35b94bf1",
+              "port": "77c177bb-43a1-45f1-af72-51da422aac46"
+            },
+            "vertices": [
+              {
+                "x": 735,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Message",
+              "description": "verified and encrypted with SHA-256",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Message"
+            ],
+            "id": "6745a573-aab7-4c8e-b20c-f21fb8435cd3",
+            "source": {
+              "cell": "826d44d3-dd39-4a80-b978-88cd35d3206b",
+              "port": "77c177bb-43a1-45f1-af72-51da422aac46"
+            },
+            "target": {
+              "cell": "66af6a9f-4f03-442c-9f15-373f35b94bf1",
+              "port": "1ba3b917-75e5-4ff6-81eb-2ed23170adaa"
+            },
+            "vertices": [
+              {
+                "x": 530,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Message",
+              "description": "verified and encrypted with SHA-256",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Message"
+            ],
+            "id": "67bfa65a-df2e-4a53-b21f-412c3fca82d6",
+            "source": {
+              "cell": "66af6a9f-4f03-442c-9f15-373f35b94bf1",
+              "port": "e3718df1-ee02-434a-b9f9-2381378567e5"
+            },
+            "target": {
+              "cell": "826d44d3-dd39-4a80-b978-88cd35d3206b",
+              "port": "ebb9d266-5c4d-4a18-a6cc-248e3db285b6"
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Message",
+              "description": "verified and encrypted with SHA-256",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Message"
+            ],
+            "id": "e3173c11-ea59-4353-8030-4f0a007208c8",
+            "source": {
+              "cell": "826d44d3-dd39-4a80-b978-88cd35d3206b",
+              "port": "ebb9d266-5c4d-4a18-a6cc-248e3db285b6"
+            },
+            "target": {
+              "cell": "90d89639-2f58-418b-a26e-533613b16d1d",
+              "port": "77c177bb-43a1-45f1-af72-51da422aac46"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Message",
+              "description": "verified and encrypted with SHA-256",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Message"
+            ],
+            "id": "a6672eaa-2908-4301-b22d-5ba42baed50d",
+            "source": {
+              "cell": "90d89639-2f58-418b-a26e-533613b16d1d",
+              "port": "1ba3b917-75e5-4ff6-81eb-2ed23170adaa"
+            },
+            "target": {
+              "cell": "826d44d3-dd39-4a80-b978-88cd35d3206b",
+              "port": "e3718df1-ee02-434a-b9f9-2381378567e5"
+            },
+            "vertices": [
+              {
+                "x": 220,
+                "y": 260
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data",
+              "description": "data encrypted with SHA-1",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data"
+            ],
+            "id": "156cc6ca-e7bb-4eac-bdf1-def6c6b32616",
+            "source": {
+              "cell": "66af6a9f-4f03-442c-9f15-373f35b94bf1",
+              "port": "1ba3b917-75e5-4ff6-81eb-2ed23170adaa"
+            },
+            "target": {
+              "cell": "051a4eb2-84b3-4115-be15-ebe1412880aa",
+              "port": "cca52a65-75ca-4e08-b428-0d33fb837045"
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": 245
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Fake Message",
+              "description": "malicious, attacker-crafted message that is injected into the system and delivered to the FOTA Process",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Fake Message"
+            ],
+            "id": "63bc9f95-5dde-4eb3-9643-c845de1fb46a",
+            "source": {
+              "cell": "d5a72e49-18b5-42a9-9420-f45bb9c85ee4",
+              "port": "4eda99b9-4df2-402f-937c-a228f5daf58f"
+            },
+            "target": {
+              "cell": "051a4eb2-84b3-4115-be15-ebe1412880aa",
+              "port": "3bee606c-67ce-40ce-8bf6-1b8a3e1c6ebe"
+            },
+            "vertices": [
+              {
+                "x": 940,
+                "y": 120
+              },
+              {
+                "x": 870,
+                "y": 220
+              },
+              {
+                "x": 830,
+                "y": 245
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "652766c3-7ce4-4a57-af88-0887aa0f8c19",
+            "source": {
+              "x": 373,
+              "y": 100
+            },
+            "target": {
+              "x": 590,
+              "y": 230
+            },
+            "vertices": [
+              {
+                "x": 473,
+                "y": 150
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 2
+  }
+}
